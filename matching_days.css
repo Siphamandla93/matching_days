@@ -1,0 +1,49 @@
+.container{
+  background-color: #c0c5ce;
+}
+
+#heading{
+  font-size: 50px;
+
+}
+
+#weeks{
+  font-size: 30px;
+}
+
+#table{
+  font-size: 20px;
+  text-align: center;
+}
+
+#calendar{
+  font-size: 25px;
+  margin-left: 20px;
+}
+#calendar1{
+  font-size: 25px;
+
+}
+
+#matchingdays{
+  font-size: 25px;
+  margin-left: 120px;
+}
+
+.paintDay{
+  background-color: red;
+}
+
+#Selection{
+  color: #010c1e;
+  font-size:30px:
+
+}
+
+.paintfirst{
+  background-color:blue;
+}
+
+.paintsecond{
+  background-color:green;
+ }
