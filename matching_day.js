@@ -1,18 +1,18 @@
-var mytables = document.querySelectorAll('td');
-var mybutton = document.getElementById('matchingdays');
-var firstDate = document.getElementById('calendar');
-var secondDate = document.getElementById('calendar1');
+let mytables = document.querySelectorAll('td');
+let mybutton = document.getElementById('matchingdays');
+let firstDate = document.getElementById('calendar');
+let secondDate = document.getElementById('calendar1');
 
 
-var match = function days(){
+let match = function days(){
 
 toClear();
 
-  var myFirstDate = new Date(firstDate.value);
-  var mySecondDate = new Date(secondDate.value);
+  let myFirstDate = new Date(firstDate.value);
+  let mySecondDate = new Date(secondDate.value);
 
-  var firstOpt = myFirstDate.getDay();
-  var secondOpt = mySecondDate.getDay();
+  let firstOpt = myFirstDate.getDay();
+  let secondOpt = mySecondDate.getDay();
 
   console.log(myFirstDate);
 
